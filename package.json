@@ -1,0 +1,17 @@
+{
+  "name": "terser-return-position",
+  "version": "1.0.0",
+  "description": "",
+  "main": "input.js",
+  "scripts": {
+    "build": "terser --source-map url=out.js.map -o out.js --compress -- input.js",
+    "start": "serve"
+  },
+  "keywords": [],
+  "author": "Benedikt Meurer <bmeurer@google.com>",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2",
+    "terser": "5.12.0"
+  }
+}
